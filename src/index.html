@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Activitat 1 per l'assignatura Eines HTML i CSS">
+	<meta name="author" content="Jaume Ramon">
+	<title>Index</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;500;700;900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/estils.css">
+	<script type="module" src="js/script.js"></script>
+	<link rel="shortcut icon" href="img/favicon.png">
+</head>
+
+
+<body>
+
+	<include src="src/include_header.html"></include>
+
+	<div class="body-container_index">
+
+		<div class="row_index">
+			<div class="column_index">
+				<p>Benvinguts a aquest lloc web on homenatgem al gran compositor John Williams, guanyador de desenes de
+					premis i un dels referens de la música cinematogràfica.</p>
+				<p>Autor de bandes sonores com <strong>STAR WARS</strong>, <strong>INDIANA JONES</strong> o <strong>LA
+						LLISTA DE SCHINDLER</strong> és un dels compositors més coneguts per tots aquells que estimen el
+					cinema.</p>
+				<p>Dintre de la web podreu trobar:</p>
+				<p>
+				<ul>
+					<li><strong>Index:</strong> Pàgina inicial</li>
+					<li><strong>Presentació:</strong> Presentació de la web</li>
+					<li><strong>Categoria:</strong> Amb notícies sobre John Williams</li>
+					<li><strong>Enllaços:</strong> Enllaços externs</li>
+				</ul>
+				</p>
+			</div>
+			<div class="column_index">
+				<center><img src="img/jw_index.jpg" alt="John Williams"></center>
+			</div>
+		</div>
+
+	</div>
+
+
+	<div class="body-container_index">
+
+		<div class="row_index">
+			<h2>Sobre el web</h2>
+
+			<div class="column_index">
+				<p>Vols dir-nos alguna cosa? Escriu-nos!</p>
+				<form id="form" class="form">
+					<p><label for="in_nom"><strong>Nom:</strong></label>
+						<input type="text" name="in_nom" id="in_nom" placeholder="Escriu el teu nom">
+					</p>
+					<p><label for="in_correu"><strong>Correu electrònic:</strong></label>
+						<input type="text" name="in_correu" id="in_correu" placeholder="Escriu el teu email">
+					</p>
+					<p><label for="in_text">Missatge:</label>
+						<textarea id="in_text" name="in_text" rows="4" cols="53"></textarea>
+					</p>
+					<p><button type="submit" class="button">Envia</button></p>
+				</form>
+			</div>
+
+			<div class="column_index">
+				<p>Aquest loc web és d'un estudiant per l'assignatura Eines HTML i CSS, per tant és un web sense ànim de
+					lucre i només informatiu.</p>
+			</div>
+		</div>
+
+	</div>
+
+	<include src="src/include_footer.html"></include>
+
+</body>
+
+</html>
