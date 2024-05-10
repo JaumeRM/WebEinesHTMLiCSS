@@ -1,1 +1,665 @@
-*{box-sizing:border-box}body{color:#003b4a;font-family:Lato;font-size:1em;font-weight:400;line-height:1.5em;margin:0;padding:0}#main-header,body{background:#d0fefe}#main-header{font-weight:700;height:110px;left:0;top:0;width:100%}#main-header a{color:#003b4a}#main-header a:hover{color:#00f}#main-header nav{float:left;padding-left:30px}#main-header nav ul{list-style:none;margin:0;padding:0 40px 0 0}#main-header nav ul li{display:inline-block;line-height:80px}#main-header nav ul li a{display:block;padding:0 10px;text-decoration:none}footer{background:#003b4a;color:#fff;font-size:.8rem;height:190px;left:0;padding:30px;top:0;width:100%}@media (max-width:960px){.left_footer,.right_footer{text-align:center;width:100%}}.hero{background-image:url(../img/jw_wallpaper.jpg);background-position:50%;background-repeat:no-repeat;background-size:cover;color:#fff;height:55vh;position:relative}.hero-text{font-size:4em;font-weight:900;left:47%;line-height:1;position:absolute;top:50%;transform:translate(-50%,-50%)}.body-container_index{margin:0 auto;overflow:auto;padding-bottom:20px;padding-top:20px;width:60%}.row_index:after{clear:both;content:"";display:table}.column_index{float:left;width:50%}.body-container_index h2{font-size:3em;line-height:1.25em;padding-top:20px}.body-container_index p{font-size:1.25em;line-height:1.25em;padding-right:40px}.body-container_index input{background:#fff;padding:10px;width:100%}.body-container_index input,.body-container_index textarea{border:1px solid #e5e1fe;border-radius:5px}.body-container_index input[type=button]{background-color:#003b4a;color:#fff;margin:4px 2px;text-decoration:none;width:250px}.body-container_index input[type=button]:hover{background-color:#bf0cf0}.body-container_index label{display:block;font-size:.8em;font-weight:400;margin-bottom:10px}.body-container_index img{display:inline-block;width:70%}@media screen and (max-width:960px){.body-container_index{width:90%}.column_index{width:100%}}@media screen and (max-width:600px){.column_index{width:100%}}.body-container_categoria{margin:0 auto;overflow:auto;padding:20px;width:95%}.categoria_column{float:left;padding:20px;width:25%}.categoria_row:after{clear:both;content:"";display:table}.body-container_categoria h2{font-size:2em;line-height:1.2em;padding-left:20px}.img_categoria{background-color:#fff;margin:auto;position:relative;text-align:center;width:100%}.img_categoria img{display:inline-block;width:100%}.article_categoria,.texte_categoria{background-color:#fff}.texte_categoria{margin:auto;padding-bottom:20px;padding-left:20px;width:100%}.texte_categoria h3{font-size:1.8em;line-height:1.2em}.texte_categoria h3 a{color:#003b4a;text-decoration:none}.texte_categoria h3 a:hover{color:#00f;text-decoration:none}.texte_categoria p{font-size:1.2em;line-height:1.2em}.autor_categoria{color:#9e9dab;font-size:.8rem;margin:auto;padding-left:20px;width:100%}@media screen and (max-width:960px){.categoria_column,.categoria_column_50{width:50%}}@media screen and (max-width:600px){.categoria_column,.categoria_column_50{width:100%}}.body-container_detall{margin:0 auto;overflow:auto;padding:20px;width:95%}.column_detall_left{width:65%}.column_detall_left,.column_detall_right{background-color:#fff;float:left;padding:20px}.column_detall_right{margin-top:-35px;width:35%}.column_detall_right h2{font-size:1.4em;line-height:1.2em}.texte_detall{padding-top:10px}.texte_detall h2{font-size:1.6em;line-height:1.2em;padding-top:20px}.texte_detall p{font-size:1.2em;font-weight:500;line-height:1.5em}.texte_detall ul,dl{font-weight:400;line-height:1.5em;padding-bottom:5px;padding-left:20px}.texte_detall li,dd{font-size:.9em;padding-bottom:5px}.texte_detall blockquote{border-left:1px solid red;font-weight:500;padding-left:25px}.texte_detall blockquote p{font-size:.9em;line-height:1.5em}.box_detall{background-color:#e5e1fe;margin:auto;position:relative;text-align:center;width:100%}.box_detall_titol{font-size:2.5em}.box_detall_subtitol,.box_detall_titol{line-height:1.2em;padding-left:20px;padding-top:10px;text-align:left}.box_detall_subtitol{color:#9e9dab;font-size:.9em;padding-bottom:20px}.video-detall{display:block;overflow:hidden;padding:0;position:relative;width:100%}.video-detall-item{border:0;bottom:0;height:100%;left:0;position:absolute;top:0;width:100%}.video-detall:before{content:"";display:block;padding-top:56.25%}.img_detall_lateral{background-color:#fff;float:left;margin:auto auto 20px;overflow:hidden;position:relative;text-align:center;width:100%}.img_detall_lateral img{display:inline-block;width:100%}.img_detall_titol_lateral{font-size:1.1em;line-height:1em;padding:10px;text-align:left}.container_relacionats{margin:0 auto;overflow:auto;padding:20px;width:95%}.container_relacionats p{font-size:.8em;font-weight:500;line-height:1.5em}.container_relacionats img{display:inline-block;width:100%}.relacionats_column{float:left;padding:20px;width:25%}.relacionats_row:after{clear:both;content:"";display:table}@media screen and (max-width:960px){.body-container_detall{width:95%}.column_detall_left,.column_detall_right{width:100%}.img_detall_lateral{width:33%}.relacionats_column{width:50%}}@media screen and (max-width:600px){.column_detall_left,.column_detall_right,.img_detall_lateral,.relacionats_column{width:100%}}.body-container_presentacio{margin:0 auto;overflow:auto;padding:20px;width:70%}.row_detall:after{clear:both;content:"";display:table}.body-container_presentacio h2{font-size:1.6em;line-height:1.2em;padding-top:20px}.body-container_presentacio h3{color:red;font-size:1.2em;line-height:1.2em;padding-left:20px;padding-top:20px}.body-container_presentacio p{font-size:1em;font-weight:500;line-height:1.5em}.body-container_presentacio img{display:inline-block;width:100%}.body-container_presentacio a{border-bottom:none;color:#00f;font-size:.8em;text-decoration:none}.body-container_presentacio a:hover{border-bottom:1px solid;color:#00f;font-size:.8em;text-decoration:none}@media screen and (max-width:960px){.body-container_presentacio{width:95%}}@media screen and (max-width:600px){.body-container_presentacio{width:95%}}
+/*****************************/
+/*****************************/
+/* GENERAL DE TOT EL WEBSITE */
+/*****************************/
+/*****************************/
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Lato';
+	font-weight: 400;
+	background: rgb(208, 254, 254);
+	font-size: 1em;
+	line-height: 1.5em;
+	color: rgb(0, 59, 74);
+}
+
+/*****************************/
+/* CAPÇALERA                 */
+/*****************************/
+/* Aspecte */
+header {
+	background: rgb(0, 0, 0);
+	height: 160px;
+	width: 100%;
+	left: 0;
+	top: 0;
+	font-size: 0.8rem;
+	color: rgb(255, 255, 255);
+	padding: 5px;
+}
+
+/* Logo */
+#logo-header {
+	float: left;
+
+	text-decoration: none;
+}
+
+#logo-header img {
+	height: 150px;
+}
+
+/*****************************/
+/* FOOTER                    */
+/*****************************/
+/* Aspecte */
+footer {
+	background: rgb(0, 59, 74);
+	height: 190px;
+	width: 100%;
+	left: 0;
+	top: 0;
+	font-size: 0.8rem;
+	color: rgb(255, 255, 255);
+	padding: 30px;
+}
+
+/* Efectes de Navegació Responsive */
+@media (max-width: 960px) {
+
+	.left_footer,
+	.right_footer {
+		width: 100%;
+		text-align: center;
+	}
+
+}
+
+/* Llista de Navegació */
+footer nav {
+	float: left;
+	padding-left: 30px;
+}
+
+footer nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	padding-right: 40px;
+}
+
+footer nav ul li {
+	display: inline-block;
+	line-height: 80px;
+}
+
+footer nav ul li a {
+	display: block;
+	padding: 0 10px;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+
+/*****************************/
+/*****************************/
+/* PÀGINA DE INDEX			 */
+/*****************************/
+/*****************************/
+
+/* Secció del HERO (Part 1) */
+.hero {
+	background-image: url('../img/jw_wallpaper.jpg');
+	height: 55vh;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	color: #FFFFFF;
+}
+
+.hero-text {
+	position: absolute;
+	transform: translate(-50%, -50%);
+	top: 50%;
+	left: 47%;
+	font-size: 4em;
+	line-height: 1;
+	font-weight: 900;
+}
+
+/* Contenidor de l'Index, disseny responsive i les seves especificitats */
+.body-container_index {
+	width: 60%;
+	margin: 0 auto;
+	overflow: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.row_index:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.column_index {
+	float: left;
+	width: 50%;
+}
+
+.body-container_index h2 {
+	padding-top: 20px;
+
+	font-size: 3em;
+	line-height: 1.25em;
+}
+
+.body-container_index p {
+	padding-right: 40px;
+	font-size: 1.25em;
+	line-height: 1.25em;
+}
+
+.body-container_index input {
+	width: 100%;
+	padding: 10px;
+	background: white;
+}
+
+.body-container_index input {
+	border: 1px solid rgb(229, 225, 254);
+	border-radius: 5px;
+}
+
+.body-container_index textarea {
+	border: 1px solid rgb(229, 225, 254);
+	border-radius: 5px;
+}
+
+.body-container_index input[type=button] {
+	background-color: rgb(0, 59, 74);
+	color: white;
+	text-decoration: none;
+	margin: 4px 2px;
+	width: 250px;
+}
+
+.body-container_index input[type=button]:hover {
+	background-color: rgb(191, 12, 240);
+}
+
+.body-container_index label {
+	display: block;
+	margin-bottom: 10px;
+	font-size: 0.8em;
+	font-weight: 400;
+}
+
+.body-container_index img {
+	width: 70%;
+	display: inline-block;
+}
+
+.retrato img {
+	clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+}
+
+.oscars img {
+	clip-path: polygon(50% 2.45%, 64.36% 25.02%, 98.89% 25.02%, 67.33% 45.05%, 86.8% 79.85%, 50% 60%, 13.03% 79.5%, 32.77% 45.05%, 1.68% 25.02%, 35.64% 25.02%);
+}
+
+/* Punts de ruptura pel disseny responsive segons la seva amplada */
+/* Amplada Tablet*/
+@media screen and (max-width: 960px) {
+	.body-container_index {
+		width: 90%;
+	}
+
+	.column_index {
+		width: 100%;
+	}
+}
+
+/* Amplada Mòbil */
+@media screen and (max-width: 600px) {
+	.column_index {
+		width: 100%;
+	}
+}
+
+
+
+/*****************************/
+/*****************************/
+/* PÀGINA DE CATEGORIA		 */
+/*****************************/
+/*****************************/
+
+/* Contenidor del categoria, disseny responsive i les seves especificitats */
+.body-container_categoria {
+	width: 95%;
+	padding: 20px;
+	margin: 0 auto;
+	overflow: auto;
+}
+
+.categoria_column {
+	float: left;
+	width: 25%;
+	padding: 20px;
+}
+
+.categoria_row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.body-container_categoria h2 {
+	padding-left: 20px;
+
+	font-size: 2em;
+	line-height: 1.2em;
+}
+
+/* Images dels categorias, amb els cuadres de texte a sobre */
+.img_categoria {
+	background-color: rgb(255, 255, 255);
+	margin: auto;
+	width: 100%;
+	position: relative;
+	text-align: center;
+}
+
+.img_categoria img {
+	width: 100%;
+	display: inline-block;
+}
+
+
+/* Estils dels textes del categoria */
+.article_categoria {
+	background-color: rgb(255, 255, 255);
+}
+
+.texte_categoria {
+	background-color: rgb(255, 255, 255);
+	margin: auto;
+	width: 100%;
+	padding-left: 20px;
+	padding-bottom: 20px;
+}
+
+.texte_categoria h3 {
+
+	font-size: 1.8em;
+	line-height: 1.2em;
+}
+
+.texte_categoria h3 a {
+	color: rgb(0, 59, 74);
+	text-decoration: none;
+}
+
+.texte_categoria h3 a:hover {
+	color: rgb(0, 0, 255);
+	text-decoration: none;
+}
+
+.texte_categoria p {
+	font-size: 1.2em;
+	line-height: 1.2em;
+}
+
+.autor_categoria {
+	font-size: 0.8rem;
+	color: rgb(158, 157, 171);
+	margin: auto;
+	width: 100%;
+	padding-left: 20px;
+}
+
+
+
+/* Punts de ruptura pel disseny responsive segons la seva amplada */
+/* Amplada Tablet*/
+@media screen and (max-width: 960px) {
+
+	.categoria_column,
+	.categoria_column_50 {
+		width: 50%;
+	}
+}
+
+/* Amplada Mòbil*/
+@media screen and (max-width: 600px) {
+
+	.categoria_column,
+	.categoria_column_50 {
+		width: 100%;
+	}
+}
+
+
+
+
+
+
+/*******************************/
+/*******************************/
+/* PÀGINA DETALL DE CATEGORIA */
+/*******************************/
+/*******************************/
+
+/* Contenidor de la detall de categoria, disseny responsive i les seves especificitats */
+.body-container_detall {
+	width: 95%;
+	padding: 20px;
+	margin: 0 auto;
+	overflow: auto;
+}
+
+.row_detall:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.column_detall_left {
+	float: left;
+	width: 65%;
+	padding: 20px;
+
+	background-color: rgb(255, 255, 255);
+}
+
+.column_detall_right {
+	float: left;
+	width: 35%;
+	padding: 20px;
+	margin-top: -35px;
+	background-color: rgb(255, 255, 255);
+}
+
+.column_detall_right h2 {
+	font-size: 1.4em;
+	line-height: 1.2em;
+}
+
+/* Estils de la detall de l'article del categoria */
+.texte_detall {
+	padding-top: 10px;
+}
+
+.texte_detall h2 {
+	font-size: 1.6em;
+	line-height: 1.2em;
+	padding-top: 20px;
+}
+
+.texte_detall p {
+	font-size: 1.2em;
+	line-height: 1.5em;
+	font-weight: 500;
+}
+
+.texte_detall ul,
+dl {
+	line-height: 1.5em;
+	font-weight: 400;
+	padding-left: 20px;
+	padding-bottom: 5px;
+}
+
+.texte_detall li,
+dd {
+	font-size: 0.9em;
+	padding-bottom: 5px
+}
+
+.texte_detall blockquote {
+	padding-left: 25px;
+	border-left: 1px solid rgb(255, 0, 0);
+	font-weight: 500;
+}
+
+.texte_detall blockquote p {
+	font-size: 0.9em;
+	line-height: 1.5em;
+}
+
+.box_detall {
+	background-color: rgb(229, 225, 254);
+	margin: auto;
+	width: 100%;
+	position: relative;
+	text-align: center;
+}
+
+.box_detall_titol {
+	padding-top: 10px;
+	padding-left: 20px;
+
+	font-size: 2.5em;
+	line-height: 1.2em;
+	text-align: left;
+}
+
+.box_detall_subtitol {
+	padding-top: 10px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	font-size: 0.9em;
+	line-height: 1.2em;
+	text-align: left;
+	color: rgb(158, 157, 171);
+}
+
+/* Video responsive */
+.video-detall {
+	position: relative;
+	display: block;
+	width: 100%;
+	padding: 0;
+	overflow: hidden;
+}
+
+.video-detall-item {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border: 0;
+}
+
+.video-detall::before {
+	display: block;
+	content: "";
+	padding-top: 56.25%;
+}
+
+
+/* Barra lateral */
+
+/* Images de la barra lateral */
+.img_detall_lateral {
+	float: left;
+	background-color: rgb(255, 255, 255);
+	margin: auto;
+	width: 100%;
+	position: relative;
+	text-align: center;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+
+.img_detall_lateral img {
+	width: 100%;
+	display: inline-block;
+}
+
+/* Titols i subtitols de la barra lateral */
+.img_detall_titol_lateral {
+	padding: 10px;
+
+	font-size: 1.1em;
+	line-height: 1em;
+	text-align: left;
+}
+
+
+/* Contenidor dels relacionats, disseny responsive i les seves especificitats */
+.container_relacionats {
+	width: 95%;
+	padding: 20px;
+	margin: 0 auto;
+	overflow: auto;
+}
+
+.container_relacionats p {
+	font-size: 0.8em;
+	line-height: 1.5em;
+	font-weight: 500;
+}
+
+.container_relacionats img {
+	width: 100%;
+	display: inline-block;
+}
+
+.relacionats_column {
+	float: left;
+	width: 25%;
+	padding: 20px;
+}
+
+.relacionats_row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+/* Punts de ruptura pel disseny responsive segons la seva amplada */
+/* Amplada Tablet*/
+@media screen and (max-width: 960px) {
+	.body-container_detall {
+		width: 95%;
+	}
+
+	.column_detall_left,
+	.column_detall_right {
+		width: 100%;
+	}
+
+	.img_detall_lateral {
+		width: 33%;
+	}
+
+	.relacionats_column {
+		width: 50%;
+	}
+}
+
+/* Amplada Mòbil*/
+@media screen and (max-width: 600px) {
+
+	.column_detall_left,
+	.column_detall_right {
+		width: 100%;
+	}
+
+	.img_detall_lateral {
+		width: 100%;
+	}
+
+	.relacionats_column {
+		width: 100%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+/*********************************/
+/*********************************/
+/* PÀGINA PRESENTACIO I ENLLAÇOS */
+/*********************************/
+/*********************************/
+
+/* Contenidor de la detall de categoria, disseny responsive i les seves especificitats */
+.body-container_presentacio {
+	width: 70%;
+	padding: 20px;
+	margin: 0 auto;
+	overflow: auto;
+}
+
+.row_detall:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+.body-container_presentacio h2 {
+	font-size: 1.6em;
+	line-height: 1.2em;
+	padding-top: 20px;
+}
+
+.body-container_presentacio h3 {
+	font-size: 1.2em;
+	line-height: 1.2em;
+	padding-top: 20px;
+	padding-left: 20px;
+	color: rgb(255, 0, 0);
+}
+
+.body-container_presentacio p {
+	font-size: 1em;
+	line-height: 1.5em;
+	font-weight: 500;
+}
+
+.body-container_presentacio img {
+	width: 100%;
+	display: inline-block;
+}
+
+.body-container_presentacio a {
+	font-size: 0.8em;
+	color: rgb(0, 0, 255);
+	text-decoration: none;
+	border-bottom: none;
+}
+
+.body-container_presentacio a:hover {
+	font-size: 0.8em;
+	color: rgb(0, 0, 255);
+	text-decoration: none;
+	border-bottom: 1px solid;
+}
+
+
+/* Punts de ruptura pel disseny responsive segons la seva amplada */
+/* Amplada Tablet*/
+@media screen and (max-width: 960px) {
+	.body-container_presentacio {
+		width: 95%;
+	}
+
+}
+
+/* Amplada Mòbil*/
+@media screen and (max-width: 600px) {
+
+	.body-container_presentacio {
+		width: 95%;
+	}
+
+}
