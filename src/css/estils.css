@@ -355,6 +355,12 @@ footer nav ul li a {
 	overflow: auto;
 }
 
+.body-container_detall img {
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
+}
+
 .row_detall:after {
 	content: "";
 	display: table;
