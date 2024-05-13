@@ -101,9 +101,13 @@ footer {
 	text-align: right;
 }
 
+
+/* Logo */
 .right_footer img {
-	height: 50px;
+	height: 75px;
 }
+
+/* Combo de Navegació */
 
 .right_footer select {
 	background-color: #fff;
@@ -130,30 +134,6 @@ footer {
 
 }
 
-/* Llista de Navegació */
-footer nav {
-	float: left;
-	padding-left: 30px;
-}
-
-footer nav ul {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-	padding-right: 40px;
-}
-
-footer nav ul li {
-	display: inline-block;
-	line-height: 80px;
-}
-
-footer nav ul li a {
-	display: block;
-	padding: 0 10px;
-	text-decoration: none;
-	color: #FFFFFF;
-}
 
 
 /*****************************/
@@ -711,6 +691,35 @@ dd {
 	border-bottom: 1px solid;
 }
 
+.container_svg {
+	height: 350px;
+	text-align: center;
+
+	animation-name: bounceIn;
+	animation-iteration-count: infinite;
+	animation-duration: 2s;
+	animation-direction: alternate;
+}
+
+.container_svg:hover {
+	animation-play-state: paused;
+}
+
+@keyframes bounceIn {
+	0% {
+		transform: scale(0.1);
+		opacity: 0;
+	}
+
+	60% {
+		transform: scale(0.9);
+		opacity: 1;
+	}
+
+	100% {
+		transform: scale(0.7);
+	}
+}
 
 /* Punts de ruptura pel disseny responsive segons la seva amplada */
 /* Amplada Tablet*/
