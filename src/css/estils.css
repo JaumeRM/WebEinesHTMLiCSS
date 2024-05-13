@@ -691,7 +691,7 @@ dd {
 	border-bottom: 1px solid;
 }
 
-.container_svg {
+.container_svg_oscar {
 	height: 350px;
 	text-align: center;
 
@@ -701,7 +701,7 @@ dd {
 	animation-direction: alternate;
 }
 
-.container_svg:hover {
+.container_svg_oscar:hover {
 	animation-play-state: paused;
 }
 
@@ -720,6 +720,84 @@ dd {
 		transform: scale(0.7);
 	}
 }
+
+
+.container_svg_xwing {
+	float: left;
+	width: 55%;
+
+	height: 400px;
+	text-align: left;
+
+	animation-name: moveRight;
+	animation-iteration-count: infinite;
+	animation-duration: 2s;
+
+}
+
+@keyframes moveRight {
+	0% {
+		transform: scale(0.2);
+		transform: translate(0px, 0px);
+	}
+
+	50% {
+		transform: scale(0.5);
+
+	}
+
+	100% {
+		transform: scale(1);
+		transform: translate(300px, 100px);
+
+	}
+}
+
+
+
+
+
+.container_svg_death_star {
+	float: left;
+	width: 45%;
+
+	height: 450px;
+
+	animation-name: zoomIn;
+	animation-iteration-count: infinite;
+	animation-duration: 2s;
+
+}
+
+@keyframes zoomIn {
+	0% {
+		transform: scale(0.2);
+	}
+
+	100% {
+		transform: scale(1.25);
+	}
+}
+
+/* Punts de ruptura pel disseny responsive segons la seva amplada */
+/* Amplada Tablet*/
+@media screen and (max-width: 960px) {
+
+	.container_svg_xwing,
+	.container_svg_death_star {
+		width: 50%;
+	}
+}
+
+/* Amplada Mòbil*/
+@media screen and (max-width: 600px) {
+
+	.container_svg_xwing,
+	.container_svg_death_star {
+		width: 100%;
+	}
+}
+
 
 /* Punts de ruptura pel disseny responsive segons la seva amplada */
 /* Amplada Tablet*/
