@@ -1,18 +1,21 @@
 <footer>
-	<p>
-	<nav>
-		<ul>
-			<li><a href="index.html">INDEX</a></li>
-			<li>|</li>
-			<li><a href="presentacio.html">PRESENTACIÓ</a></li>
-			<li>|</li>
-			<li><a href="categoria.html">CATEGORIA</a></li>
-			<li>|</li>
-			<li><a href="enllacos.html">ENLLAÇOS</a></li>
-		</ul>
-	</nav>
-	</p>
+	<div class="left_footer">
+		<p>2024 - Jaume Ramon Martinez</p>
+		<p>Eines HTML i CSS</p>
+	</div>
+	<div class="right_footer">
 
-	<p>2024 - Jaume Ramon Martinez</p>
-	<p>Eines HTML i CSS</p>
+		<p>
+			Enllaços ràpids:
+			<select onchange="window.location=this.options[this.selectedIndex].value">
+				<option value="index.html">Index</option>
+				<option value="presentacio.html">Presentació</option>
+				<option value="categoria.html">Categoria</option>
+				<option value="detall.html">Detall</option>
+				<option value="enllacos.html">Enllacos</option>
+			</select>
+		</p>
+		<p><a href="index.html"><img src="img/logo.jpg" alt="Logo"></a></p>
+	</div>
+
 </footer>

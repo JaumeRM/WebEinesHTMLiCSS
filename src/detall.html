@@ -38,10 +38,15 @@
 						possiblement a Alemanya , però en aquell moment, tots pensàvem que això era una simple
 						declaració d'intencions i no una cosa què podria ser una realitat propera.</p>
 					<p>
-						<img srcset="img/detall_jw_article1_480w.jpg?as=webp&width=480 480w, img/detall_jw_article1_800w.jpg?as=webp&width=800 800w"
-							sizes="(max-width: 600px) 480px, 800px" src="img/detall_jw_article1_800w.jpg"
-							alt="Resolution switching per grandària" type="image/webp">
+						<picture>
+							<source media="(max-width: 799px)"
+								srcset="img/detall_jw_article1_420w.jpg?as=webp&width=420" />
+							<source media="(min-width: 800px)"
+								srcset="img/detall_jw_article1_800w.jpg?as=webp&width=800" />
+							<img src="img/detall_jw_article3_800w.jpg" alt="Direcció d'art" type="image/webp" />
+						</picture>
 					</p>
+
 
 					<p>És curiós pensar que John Williams va estar a Europa el gener del 2020 a Viena, sent aquest
 						l'últim gran concert abans que la pandèmia començarà a colpejar fort el continent. Igualment,
@@ -73,8 +78,9 @@
 						<dd>Star Wars: Episode IV – A New Hope: Throne Room and End Title</dd>
 						<p>
 							<span class="test_dpi">
-								<img srcset="img/detall_jw_article2_400w.jpg, img/detall_jw_article2_600w.jpg 1.5x, img/detall_jw_article2_800w.jpg 2x"
-									src="img/detall_jw_article2_800w.jpg" alt="Resolution switching per DPI" />
+								<img srcset="img/detall_jw_article2_400w.jpg?as=webp&width=400, img/detall_jw_article2_600w.jpg?as=webp&width=600 1.5x, img/detall_jw_article2_800w.jpg?as=webp&width=800 2x"
+									src="img/detall_jw_article2_800w.jpg" alt="Resolution switching per DPI"
+									type="image/webp" />
 							</span>
 						</p>
 						<dt><strong>BISES:</strong></dt>
@@ -92,11 +98,9 @@
 					<p>Així que tots aquells afortunats que vau poder gaudir d'aquesta experiència atesoreu les notes
 						musicals que us portaran a un mon ple de somnis.</p>
 					<p>
-						<picture>
-							<source media="(max-width: 799px)" srcset="img/detall_jw_article3_320w.jpg" />
-							<source media="(min-width: 800px)" srcset="img/detall_jw_article3_800w.jpg" />
-							<img src="img/detall_jw_article3_800w.jpg" alt="Direcció d'art" />
-						</picture>
+						<img srcset="img/detall_jw_article3_480w.jpg?as=webp&width=480 480w, img/detall_jw_article3_800w.jpg?as=webp&width=800 800w"
+							sizes="(max-width: 600px) 480px, 800px" src="img/detall_jw_article3_800w.jpg"
+							alt="Resolution switching per grandària" type="image/webp">
 					</p>
 					<h2>Video del concert</h2>
 					<p>Per tal que tothom pugui gaudir de la experència, deixem un trailer del concert a la vostra
@@ -113,7 +117,10 @@
 
 					<div class="container_relacionats">
 						<div class="relacionats_column">
-							<img src="img/detall_relacio_disc.jpg" alt="Comprar">
+							<picture>
+								<source srcset="img/detall_relacio_disc.jpg?as=webp&width=250" type="image/webp">
+								<img src="img/detall_relacio_disc.jpg?width=250" alt="Comprar" type="image/jpeg">
+							</picture>
 							<p><a href="https://www.amazon.es/Berlin-Concert-2CD-John-Williams/dp/B09KN2N3F4/"
 									target="_blank"><img src="img/detall_relacio_amazon.jpg" alt="Comprar"></a></p>
 							<p>John Williams dirigeix a la Filharmònica de Berlín per primera vegada en el seu nou àlbum
@@ -121,7 +128,10 @@
 								Deutsche Grammophon durant...</p>
 						</div>
 						<div class="relacionats_column">
-							<img src="img/detall_relacio_disc2.jpg" alt="Comprar">
+							<picture>
+								<source srcset="img/detall_relacio_disc2.jpg?as=webp&width=250" type="image/webp">
+								<img src="img/detall_relacio_disc2.jpg?width=250" alt="Comprar" type="image/jpeg">
+							</picture>
 							<p><a href="https://www.amazon.es/Spielberg-Williams-Adventure-Continues-John/dp/B01MRNZ615"
 									target="_blank"><img src="img/detall_relacio_amazon.jpg" alt="Comprar"></a></p>
 							<p>John Williams & Steven Spielberg: The Ultimate Collection ofereix una mostra essencial de
@@ -141,17 +151,26 @@
 				<h2>Fotos del Concert</h2>
 
 				<div class="img_detall_lateral">
-					<img src="img/detall_concert1.jpg" alt="Concert 1">
+					<picture>
+						<source srcset="img/detall_concert1.jpg?as=webp&width=320" type="image/webp">
+						<img src="img/detall_concert1.jpg?width=320" alt="Concert 1" type="image/jpeg">
+					</picture>
 					<div class="img_detall_titol_lateral">Concert</div>
 				</div>
 
 				<div class="img_detall_lateral">
-					<img src="img/detall_concert2.jpg" alt="Concert 2">
+					<picture>
+						<source srcset="img/detall_concert2.jpg?as=webp&width=320" type="image/webp">
+						<img src="img/detall_concert2.jpg?width=320" alt="Concert 2" type="image/jpeg">
+					</picture>
 					<div class="img_detall_titol_lateral">Orquestra</div>
 				</div>
 
 				<div class="img_detall_lateral">
-					<img src="img/detall_concert3.jpg" alt="Concert 3">
+					<picture>
+						<source srcset="img/detall_concert3.jpg?as=webp&width=320" type="image/webp">
+						<img src="img/detall_concert3.jpg?width=320" alt="Concert 3" type="image/jpeg">
+					</picture>
 					<div class="img_detall_titol_lateral">Auditori</div>
 				</div>
 
