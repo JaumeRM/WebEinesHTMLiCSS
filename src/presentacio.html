@@ -12,6 +12,11 @@
 	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;500;700;900&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="css/estils.css">
 	<link rel="shortcut icon" href="img/favicon.png">
+
+	<link rel="stylesheet" href="../node_modules/lite-youtube-embed/src/lite-yt-embed.css" />
+	<script src="../node_modules/lite-youtube-embed/src/lite-yt-embed.js"></script>
+
+
 </head>
 
 
@@ -157,12 +162,17 @@
 			ser contractat per Columbia Records com a pianista i compositor, on va realitzar nombrosos àlbums al
 			costat
 			del compositor d'origen alemany André Previn.</p>
-		<div class="video-detall">
-			<iframe class="video-detall-item" width="560" height="315" loading="lazy"
-				src="https://www.youtube.com/embed/97-0ghnBMcs?feature=oembed" title="YouTube video player"
-				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-				allowfullscreen></iframe>
-		</div>
+
+
+
+		<lite-youtube videoid="97-0ghnBMcs"
+			style="background-image: url('https://img.youtube.com/vi/97-0ghnBMcs/0.jpg');">
+			<a href="https://www.youtube.com/watch?v=97-0ghnBMcs" class="lty-playbtn" title="Play Video">
+				<span class="lyt-visually-hidden">Play Video: Keynote (Google I/O '18)</span>
+			</a>
+		</lite-youtube>
+
+
 		<h2>Sobre aquest lloc web</h2>
 		<p>Aquest lloc web preté ser un petit homenatge a aquest gran compositor que està estructurat de la següent
 			manera</p>
