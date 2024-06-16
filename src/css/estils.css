@@ -69,8 +69,14 @@ header {
 	color: rgb(255, 255, 255);
 }
 
+.hero:before {
+	background: url(../img/jw_wallpaper.webp) no-repeat;
+}
+
 .hero {
-	background-image: url('../img/jw_wallpaper.jpg');
+	/*background-image: url('../img/jw_wallpaper.webp');*/
+
+
 	height: 55vh;
 	background-position: center;
 	background-repeat: no-repeat;
