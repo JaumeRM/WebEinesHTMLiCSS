@@ -81,10 +81,6 @@ header {
 	color: #FFFFFF;
 }
 
-.hero img {
-	object-fit: contain;
-}
-
 .hero-text {
 	position: absolute;
 	transform: translate(-50%, -50%);
@@ -93,6 +89,21 @@ header {
 	font-size: 4em;
 	line-height: 1;
 	font-weight: 900;
+	color: #FFFFFF;
+}
+
+#herocontainer {
+	position: relative;
+	padding: 4rem 0;
+	height: 55vh;
+}
+
+#heroimg {
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
 }
 
 /*****************************/
