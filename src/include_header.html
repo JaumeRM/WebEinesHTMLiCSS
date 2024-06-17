@@ -21,10 +21,14 @@
 
 
 <div id="herocontainer">
+
+
 	<picture>
-		<source type="image/webp" media="(max-width:540px)" srcset="img/jw_wallpaper_mobil.jpg?as=webp" />
-		<img loading="eager" decoding="async" src="img/jw_wallpaper.jpg?as=webp" type="image/webp" id="heroimg" />
+		<source media="(max-width: 539px)" type="image/webp" srcset="img/jw_wallpaper_mobil.jpg?as=webp" />
+		<source media="(min-width: 540px)" type="image/webp" srcset="img/jw_wallpaper.jpg?as=webp" />
+		<img loading="lazy" src="img/jw_wallpaper.jpg" alt="Direcció d'art" type="image/webp" id="heroimg" />
 	</picture>
+
 	<div class="hero-text">
 		JOHN WILLIAMS: EL COMPOSITOR DELS SOMNIS
 	</div>
