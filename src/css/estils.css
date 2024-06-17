@@ -72,7 +72,7 @@ header {
 
 
 .hero {
-	background: url('../img/jw_wallpaper.jpg');
+	background: url('../img/jw_wallpaper.jpg?as=webp');
 	height: 55vh;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -81,29 +81,15 @@ header {
 	color: #FFFFFF;
 }
 
+
 .hero-text {
-	position: relative;
+	position: absolute;
 	transform: translate(-50%, -50%);
 	top: 50%;
 	left: 47%;
 	font-size: 4em;
 	line-height: 1;
 	font-weight: 900;
-	color: #FFFFFF;
-}
-
-#herocontainer {
-	position: relative;
-	padding: 0;
-	height: 55vh;
-}
-
-#heroimg {
-	object-fit: cover;
-	width: 100%;
-	height: 100%;
-	position: relative;
-	top: 0;
 }
 
 /*****************************/
@@ -176,26 +162,7 @@ footer {
 /*****************************/
 /*****************************/
 
-/* Secció del HERO (Part 1) */
-.hero {
-	background-image: url('../img/jw_wallpaper.jpg');
-	height: 55vh;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	position: relative;
-	color: #FFFFFF;
-}
 
-.hero-text {
-	position: absolute;
-	transform: translate(-50%, -50%);
-	top: 50%;
-	left: 47%;
-	font-size: 4em;
-	line-height: 1;
-	font-weight: 900;
-}
 
 /* Contenidor de l'Index, disseny responsive i les seves especificitats */
 .body-container_index {
