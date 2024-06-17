@@ -71,15 +71,32 @@ header {
 }
 
 
+
 .hero {
-	background: url('../img/jw_wallpaper.jpg?as=webp');
-	height: 55vh;
-	background-position: center;
+	background-image: url('../img/jw_wallpaper_mobil.jpg?as=webp');
 	background-repeat: no-repeat;
+	background-position: center;
 	background-size: cover;
+	height: 55vh;
 	position: relative;
-	color: #FFFFFF;
+	color: rgb(255, 255, 255);
 }
+
+/* Mobile landscape breakpoint. */
+@media only screen and (max-width: 480px) {
+	.hero {
+		background-image: url('../img/jw_wallpaper_mobil.jpg?as=webp');
+	}
+}
+
+/* Tablet breakpoint. */
+@media only screen and (min-width: 481px) {
+	.hero {
+		background-image: url('../img/jw_wallpaper.jpg?as=webp');
+	}
+}
+
+
 
 
 .hero-text {
